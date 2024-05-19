@@ -15,4 +15,14 @@ function verifyIdade(idade){
     }
 }
 
-console.log(verifyIdade(19));
+//arrow  function
+
+const verificaIdade = (idade) => {
+    if (idade <= 17){
+        return 'De menor'
+    } else {
+        return 'De maior'
+    }
+}
+
+console.log(verificaIdade(19));
